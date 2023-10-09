@@ -1,0 +1,27 @@
+"InstallScript"
+{
+	"Copy Folders"
+	{
+		"L4D Sprays Copy"
+		{
+			"SrcFolder1"		"%STEAMDIR%\\steamapps\\common\\left 4 dead demo\\left4dead\\materials\\vgui\\logos\\custom"
+			"DstFolder1"		"%INSTALLDIR%\\left4dead\\materials\\vgui\\logos\\custom"
+			"IgnoreExitCode"		"1"
+			"NoCleanUp"		"1"
+		}
+	}
+	"Copy Files"
+	{
+		"L4D Config Copy"
+		{
+			"SrcFile1"		"%STEAMDIR%\\steamapps\\common\\left 4 dead demo\\left4dead\\cfg\\config.cfg"
+			"DstFile1"		"%INSTALLDIR%\\left4dead\\cfg\\config.cfg"
+			"IgnoreExitCode"		"1"
+			"NoCleanUp"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"b07f38c5ffac4805f5ec21b38107335a0fb42c98f573162d0c7884ebcfe69a6febf4a178ce7cec97125d7ecc92f46a48fde8349b03cf898c751b818ebd15ad5daefa297b09862227e6bdc046a6e4c09f1eadb173b1319444e9f3e4a279eea46e7c8e1390cc22f03f2887bafbdd85e052e254199040ad950fb89b35b087f6b7c7"
+}
