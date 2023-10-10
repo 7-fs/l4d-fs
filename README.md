@@ -2,7 +2,7 @@
 
 **Ссылки:**
 - L4D Кеш: [Скачать](https://drive.google.com/file/d/1UzAI1THc6-VUGi5fy57L5SrV1qUkS7rr/view?usp=sharing)
-- L4D Лаунчер: [Скачать](https://github.com/milo-src/l4d-cleared-edition/releases/download/untagged-2e71f677341db67dd4c4/l4d_windows.zip)
+- L4D Лаунчер: [Скачать](https://github.com/7-fs/l4d-clear-edition/releases/download/untagged-0f41fd238519e91c75b0/l4d_windows.zip)
 
 **Установка:**
 
@@ -23,7 +23,7 @@
 
 **Обновление:**
 
-Мы рекомендуем регулярно проверять наличие обновлений для игры и кеш-файлов. Для обновления лаунчера используйте версию, предоставленную в нашем [репозитории на GitHub](https://github.com/milo-src/l4d-cleared-edition).
+Мы рекомендуем регулярно проверять наличие обновлений для игры и кеш-файлов. Для обновления лаунчера используйте версию, предоставленную в нашем [репозитории на GitHub](https://github.com/7-fs/l4d-clear-edition).
 
 **Дополнительная информация (по желанию):**
 
