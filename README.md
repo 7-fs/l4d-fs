@@ -2,7 +2,7 @@
 
 **Ссылки:**
 - L4D Кеш: [Скачать](скачать_кеш)
-- L4D Лаунчер: [Скачать](скачать_лаунчер)
+- L4D Лаунчер: [Скачать](https://github.com/milo-src/l4d-cleared-edition/releases/download/untagged-2e71f677341db67dd4c4/l4d_windows.zip)
 
 **Установка:**
 
