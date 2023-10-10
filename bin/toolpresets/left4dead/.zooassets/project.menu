@@ -1,0 +1,17 @@
+string $ep3Menu = `menu -l "l4d Settings" -aob 1`;
+menu -e -pmc( "zooAssetsBuildMenuEp3 "+ $ep3Menu +";" ) $ep3Menu;
+
+
+global proc zooAssetsBuildMenuEp3( string $parent ) {
+	menu -e -dai $parent;
+	setParent -m $parent;
+
+	string $existingDefault = `zooGetAttrDefault 0 exportPrefix ""`;
+	string $existingDefaultUp = `zooGetAttrDefault 0 upAxis ""`;
+	menuItem -l "Use Y as Default Up Axis" -cb( $existingDefaultUp=="Y" ) -c( "zooSetAttrDefault upAxis \"Y\" \"\";" );
+	menuItem -l "Use Z as Default Up Axis" -cb( $existingDefaultUp=="Z" ) -c( "zooSetAttrDefault upAxis \"Z\" \"\";" );
+	menuItem -d 1;
+	menuItem -l "Auto Add \"ValveBiped.\" Prefix" -cb( $existingDefault=="ValveBiped." ) -c( "zooSetAttrDefault exportPrefix \"ValveBiped.\" \"\";" );
+	menuItem -l "Auto Add \"Dog_Model.\" Prefix" -cb( $existingDefault=="Dog_Model." ) -c( "zooSetAttrDefault exportPrefix \"Dog_Model.\" \"\";" );
+	menuItem -l "Clear Auto Prefix" -c( "zooSetAttrDefault exportPrefix \"\" \"\";" );
+	}

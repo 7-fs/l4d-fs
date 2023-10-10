@@ -1,0 +1,4 @@
+string $dupes[] = {};
+string $a = `getAttr #.notes`;
+tokenize $a $dupes; 
+delete $dupes;

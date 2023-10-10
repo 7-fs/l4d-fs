@@ -1,0 +1,12 @@
+"GameInfo"
+{
+	FileSystem
+	{
+		SteamAppId				220 // mount hl2 content for vgui platform stuff
+		
+		SearchPaths
+		{
+			mdripper			platform			// for all the vgui stuff
+		}
+	}
+}

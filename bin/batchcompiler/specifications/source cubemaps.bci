@@ -1,0 +1,30 @@
+// Specification: Source Cubemaps
+// Written by: Jerod Bennett
+// Version: N/A
+// Created: October 4, 2007
+
+//
+// Batch
+//
+Stage
+{
+  Name		"BuildCubeMaps"
+  Title		"Build Cubemaps"
+  Type		"CommandList"
+
+	CheckBox
+	{
+		Name	"Build LDR Cubemaps"
+		Param	"cd \"${ValveProject}\"\n"_
+				"cd ..\n"_
+				"\"${ValveProject}.exe\" -allowdebug -sw -w 1280 -h 1024 +mat_picmip 0 -dev +mat_hdr_level 0 +sv_cheats 1 +map ${FileName} -buildcubemaps\n"
+	}
+
+	CheckBox
+	{
+		Name	"Build HDR Cubemaps"
+		Param	"cd \"${ValveProject}\"\n"_
+				"cd ..\n"_
+				"\"${ValveProject}.exe\" -allowdebug -sw -w 1280 -h 1024 +mat_picmip 0 -dev +mat_hdr_level 2 +sv_cheats 1 +map ${FileName} -buildcubemaps\n"
+	}
+}

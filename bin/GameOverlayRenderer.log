@@ -1,0 +1,89 @@
+Sat Oct 07 19:59:04 2023 UTC - Module file name: D:\Steam\gameoverlayrenderer.dll
+Sat Oct 07 19:59:04 2023 UTC - GameID = 500, OverlayGameID = 500
+Sat Oct 07 19:59:04 2023 UTC - System page size: 4096
+Sat Oct 07 19:59:04 2023 UTC - Failed loading shell32.dll, not hooking ShellExecute calls
+Sat Oct 07 19:59:04 2023 UTC - Hooking SetCursorPos, GetCursorPos, ShowCursor, SetCursor, and GetCursor
+Sat Oct 07 19:59:04 2023 UTC - Modules at GameOverlayRenderer.dll attach
+Sat Oct 07 19:59:04 2023 UTC - 01: left4dead.exe - (00400000 to 0041A000)
+Sat Oct 07 19:59:04 2023 UTC - 02: ntdll.dll - (77E10000 to 77FAC000)
+Sat Oct 07 19:59:04 2023 UTC - 03: KERNEL32.DLL - (76B00000 to 76BE0000)
+Sat Oct 07 19:59:04 2023 UTC - 04: KERNELBASE.dll - (77C00000 to 77DFB000)
+Sat Oct 07 19:59:04 2023 UTC - 05: USER32.dll - (77380000 to 77519000)
+Sat Oct 07 19:59:04 2023 UTC - 06: win32u.dll - (77270000 to 77287000)
+Sat Oct 07 19:59:04 2023 UTC - 07: GDI32.dll - (76380000 to 763A3000)
+Sat Oct 07 19:59:04 2023 UTC - 08: gdi32full.dll - (76440000 to 765A8000)
+Sat Oct 07 19:59:04 2023 UTC - 09: msvcp_win.dll - (76FD0000 to 77050000)
+Sat Oct 07 19:59:04 2023 UTC - 10: ucrtbase.dll - (767E0000 to 76902000)
+Sat Oct 07 19:59:04 2023 UTC - 11: IMM32.DLL - (763D0000 to 763F5000)
+Sat Oct 07 19:59:04 2023 UTC - 12: gameoverlayrenderer.dll - (5E4F0000 to 5E63A000)
+Sat Oct 07 19:59:04 2023 UTC - 13: ADVAPI32.dll - (75C90000 to 75D0E000)
+Sat Oct 07 19:59:04 2023 UTC - 14: msvcrt.dll - (76E70000 to 76F30000)
+Sat Oct 07 19:59:04 2023 UTC - 15: sechost.dll - (771F0000 to 77269000)
+Sat Oct 07 19:59:04 2023 UTC - 16: RPCRT4.dll - (75540000 to 755FF000)
+Sat Oct 07 19:59:04 2023 UTC - 17: SspiCli.dll - (75450000 to 75475000)
+Sat Oct 07 19:59:04 2023 UTC - 18: CRYPTBASE.dll - (75440000 to 7544A000)
+Sat Oct 07 19:59:04 2023 UTC - 19: bcryptPrimitives.dll - (765B0000 to 76612000)
+Sat Oct 07 19:59:04 2023 UTC - 20: ole32.dll - (75740000 to 7583C000)
+Sat Oct 07 19:59:04 2023 UTC - 21: combase.dll - (76BE0000 to 76E57000)
+Sat Oct 07 19:59:04 2023 UTC - 22: OLEAUT32.dll - (754A0000 to 75536000)
+Sat Oct 07 19:59:04 2023 UTC - 23: PSAPI.DLL - (76FC0000 to 76FC6000)
+Sat Oct 07 19:59:04 2023 UTC - 24: WINMM.dll - (6F920000 to 6F944000)
+Sat Oct 07 19:59:04 2023 UTC - 25: WINMMBASE.dll - (6F850000 to 6F873000)
+Sat Oct 07 19:59:04 2023 UTC - 26: cfgmgr32.dll - (76400000 to 7643B000)
+Sat Oct 07 19:59:04 2023 UTC - ----------------------------
+Sat Oct 07 19:59:04 2023 UTC - Game is using opengl32.dll... hooking.
+Sat Oct 07 19:59:04 2023 UTC - Game is using opengl32.dll... hooking.
+Sat Oct 07 19:59:04 2023 UTC - Game is using D3D9 or D3D9Ex, preparing to hook.
+Sat Oct 07 19:59:04 2023 UTC - hookDirect3DCreate9 called
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:04 2023 UTC - Found a hooked function in now unloaded module, removing from map.
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputEnable Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetAudioDeviceIds Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetBatteryInformation Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetCapabilities Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetKeystroke Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetState Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputGetStateEX Version 14
+Sat Oct 07 19:59:05 2023 UTC - XInput Hooked XInputSetState Version 14
+Sat Oct 07 19:59:05 2023 UTC - Game is using dxgi (dx10/dx11), preparing to hook.
+Sat Oct 07 19:59:05 2023 UTC - Game is using dinput.dll (dinput7), preparing to hook.
+Sat Oct 07 19:59:05 2023 UTC - DirectInputCreateW hook called
+Sat Oct 07 19:59:05 2023 UTC - Creating IWrapWbemLocator
+Sat Oct 07 19:59:05 2023 UTC - CoCreateInstance hook created WbemLocator interface 006FB7D0
+Sat Oct 07 19:59:05 2023 UTC - IWrapWbemLocator 006FB7D0 deleting
+Sat Oct 07 19:59:05 2023 UTC - IWrapIDirect3D9::CreateDevice hook called (type: 1, behavior flags: 56!)
+Sat Oct 07 19:59:05 2023 UTC - Creating D3D9 renderer
+Sat Oct 07 19:59:05 2023 UTC - Initializing Audio...
+Sat Oct 07 19:59:05 2023 UTC - IAudioClient_Initialize - SUCCEEDED
+Sat Oct 07 19:59:05 2023 UTC - Audio client initialized: 0x1242E8A0
+Sat Oct 07 19:59:05 2023 UTC - Device:
+Sat Oct 07 19:59:05 2023 UTC - Audio client mix format:
+Sat Oct 07 19:59:05 2023 UTC - 	format: 65534
+Sat Oct 07 19:59:05 2023 UTC - 	channels: 2
+Sat Oct 07 19:59:05 2023 UTC - 	samples/sec: 48000
+Sat Oct 07 19:59:05 2023 UTC - 	bytes/sec: 384000
+Sat Oct 07 19:59:05 2023 UTC - 	alignment: 8
+Sat Oct 07 19:59:05 2023 UTC - 	bits/sample: 32
+Sat Oct 07 19:59:05 2023 UTC - 	channel mask: 0x3
+Sat Oct 07 19:59:05 2023 UTC - 	data format: {00000003-0000-0010-8000-00AA00389B71}
+Sat Oct 07 19:59:05 2023 UTC - Audio hooked
+Sat Oct 07 19:59:05 2023 UTC - Audio client started: 0x1242E8A0, 1
+Sat Oct 07 19:59:05 2023 UTC - Trying to setup input hook...
+Sat Oct 07 19:59:05 2023 UTC - Set input hook...
+Sat Oct 07 19:59:06 2023 UTC - IAudioClient_Initialize - SUCCEEDED
+Sat Oct 07 19:59:06 2023 UTC - Audio client initialized: 0x1242EA48
+Sat Oct 07 19:59:06 2023 UTC - Device:
+Sat Oct 07 19:59:06 2023 UTC - Audio client mix format:
+Sat Oct 07 19:59:06 2023 UTC - 	format: 65534
+Sat Oct 07 19:59:06 2023 UTC - 	channels: 2
+Sat Oct 07 19:59:06 2023 UTC - 	samples/sec: 48000
+Sat Oct 07 19:59:06 2023 UTC - 	bytes/sec: 384000
+Sat Oct 07 19:59:06 2023 UTC - 	alignment: 8
+Sat Oct 07 19:59:06 2023 UTC - 	bits/sample: 32
+Sat Oct 07 19:59:06 2023 UTC - 	channel mask: 0x3
+Sat Oct 07 19:59:06 2023 UTC - 	data format: {00000003-0000-0010-8000-00AA00389B71}
+Sat Oct 07 19:59:06 2023 UTC - Audio client started: 0x1242EA48, 2

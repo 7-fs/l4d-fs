@@ -1,0 +1,14 @@
+float $reduce = 25;
+string $dupes[] = `duplicate -rc @`;
+for( $d in $dupes ) {
+ string $as[] = `polyReduce -p $reduce -d 1 -kb 1 -kmb 1 -kev 1 $d`;
+ string $a = $as[0];
+ setAttr ($a +".compactness") 0.5;
+ setAttr ($a +".uvWeights") 0.5;
+ setAttr ($a +".keepQuadsWeight") 0.5;
+ setAttr ($a +".triangulate") 0;
+ polySoftEdge -a 180 $d;
+ }
+if(!`objExists #.notes`) addAttr("-ln", "notes", "-dt", "string", "#");
+setAttr -type "string" #.notes `zooArrayToStr_str $dupes " "`;
+sets -e -add # $dupes;

@@ -1,0 +1,174 @@
+// Specification: Source Subsets
+// Written by: Jerod Bennett
+// Version: N/A
+// Created: October 31, 2007
+
+Subset
+{
+  Name        "Ents Only"
+
+  StageLink
+  {
+    Name    "VIS"
+    Checked    "False"
+  }
+
+  StageLink
+  {
+    Name    "RAD"
+    Checked    "False"
+  }
+
+  OptionLink
+  {
+    Name		"Only Entities"
+    StageName	"BSP"
+    Checked		"True"
+  }
+}
+
+Subset
+{
+  Name        "Lightmap"
+
+  StageLink
+  {
+    Name    "BSP"
+    Checked    "False"
+  }
+
+  StageLink
+  {
+    Name    "VIS"
+    Checked    "False"
+  }
+
+  OptionLink
+  {
+    Name		"No Extra"
+    StageName	"RAD"
+    Checked		"True"
+  }
+
+  OptionLink
+  {
+    Name		"Bounce"
+    StageName	"RAD"
+    Checked		"True"
+    Value		"1"
+  }
+}
+
+Subset
+{
+  Name        "Ents and Lightmap"
+
+  StageLink
+  {
+    Name    "VIS"
+    Checked    "False"
+  }
+
+  OptionLink
+  {
+    Name		"Only Entities"
+    StageName	"BSP"
+    Checked		"True"
+  }
+
+  OptionLink
+  {
+    Name		"No Extra"
+    StageName	"RAD"
+    Checked		"True"
+  }
+
+  OptionLink
+  {
+    Name		"Bounce"
+    StageName	"RAD"
+    Checked		"True"
+    Value		"1"
+  }
+}
+
+Subset
+{
+  Name        "Fast"
+
+  OptionLink
+  {
+    Name		"VIS Type"
+    StageName	"VIS"
+    Checked		"True"
+    Value		"Fast"
+  }
+
+  OptionLink
+  {
+    Name		"Final"
+    StageName	"RAD"
+    Checked		"False"
+  }
+
+  OptionLink
+  {
+    Name		"No Extra"
+    StageName	"RAD"
+    Checked		"True"
+  }
+}
+
+Subset
+{
+  Name        "MPI Off"
+
+  OptionLink
+  {
+    Name		"MPI"
+    StageName	"Shared"
+    Checked		"False"
+  }
+
+  OptionLink
+  {
+    Name		"MPI Disable Stats"
+    StageName	"Shared"
+    Checked		"False"
+  }
+
+  OptionLink
+  {
+    Name		"MPI Show Workers"
+    StageName	"Shared"
+    Checked		"False"
+  }
+}
+
+
+Subset
+{
+  Name        "LDR Only"
+
+  OptionLink
+  {
+    Name		"Lightmap Gen"
+    StageName	"RAD"
+    Checked		"True"
+    Value		"LDR Only"
+  }
+
+  OptionLink
+  {
+    Name		"Build LDR Cubemaps"
+    StageName	"BuildCubeMaps"
+    Checked		"True"
+  }
+
+  OptionLink
+  {
+    Name		"Build HDR Cubemaps"
+    StageName	"BuildCubeMaps"
+    Checked		"False"
+  }
+}

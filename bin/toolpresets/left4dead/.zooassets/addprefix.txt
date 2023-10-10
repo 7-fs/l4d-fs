@@ -1,0 +1,3 @@
+string $pythonPath = resolvePath("%VGAME%/sdktools/python/site-packages/addPrefixToDMXJoints.py");
+print `system( "python "+ $pythonPath +" \"%path;%name;.dmx\" %notes;" )`;
+print "\n"; 

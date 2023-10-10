@@ -1,0 +1,99 @@
+// Specification: Left 4 Dead
+// Written by: Jerod Bennett
+// Version: N/A
+// Created: October 2, 2007
+// Last updated: N/A
+
+Include		"Perforce.bci"
+Include		"Source Tools.bci"
+Include		"Source Batch.bci"
+Include		"LaunchL4D.bci"
+Include		"Source Cubemaps.bci"
+Include		"Report.bci"
+Include		"Templates.bci"
+Include		"Source Subsets.bci"
+
+Batch
+{
+	Name		"Left 4 Dead"
+	Priority	"3"
+	Links		"Source SDK,http://www.valve-erc.com/srcsdk/|"_
+		"TRS Wiki,http://wiki/|"_
+		"Steam,http://www.steampowered.com/|"_
+		"Valve Intranet,http://intranet.valvesoftware.com/|"_
+		"Valve,http://www.valvesoftware.com/"
+	Filter	"Supported Files|*.vmf;*.bsp|VMF Files (*.vmf)|*.vmf|BSP Files (*.bsp)|*.bsp"
+	Stages	"PerforceOut|BSP|VIS|RAD|RAD2|Shared|Batch|BuildCubeMaps|PerforceIn|Report|LaunchL4D"
+	LogFile	"${MapSrcPath}\\${FileName}.log"
+	Template	"@echo off\n"_
+		"cd ${MapSrcPath}\n"_
+
+		"${Splash}"_
+
+		"echo ====== Perforce Checkout\n"_
+		"echo ====== Perforce Checkout > \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"${StageCmd=PerforceOut}\n"_
+
+		"echo ====== BSP Stage\n"_
+		"echo ====== BSP Stage >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"\"${StagePath=BSP}\" ${StageParam=BSP} ${FileName}\n"_
+		"if ERRORLEVEL 1 goto failed\n"_
+
+		"echo ====== VIS Stage\n"_
+		"echo ====== VIS Stage >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"\"${StagePath=VIS}\" ${StageParam=VIS} ${FileName}\n"_
+		"if ERRORLEVEL 1 goto failed\n"_
+
+		"echo ====== RAD Stage\n"_
+		"echo ====== RAD Stage >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"\"${StagePath=RAD}\" ${StageParam=RAD} ${StageParam=RAD2} ${FileName}\n"_
+		"if ERRORLEVEL 1 goto failed\n"_
+
+		"${StageCmd=Batch}\n"_
+
+		"echo ====== Build CubeMaps\n"_
+		"echo ====== Build CubeMaps >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"PUSHD .\n"_
+		"${StageCmd=BuildCubeMaps}\n"_
+		"POPD\n"_
+
+		"goto succeeded\n"_
+
+		":failed\n"_
+		"echo.\n"_
+		"echo There was a problem compiling your map, check your bc_out.log file for errors.\n"_
+		"echo There was a problem compiling your map, check your bc_out.log file for errors. >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+
+		"goto reporting\n"_
+
+		":succeeded\n"_
+		"echo.\n"_
+
+		"echo ====== Perforce Checkin\n"_
+		"echo ====== Perforce Checkin >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"${StageCmd=PerforceIn}\n"_
+
+		":reporting\n"_
+		"echo ====== Reporting\n"_
+		"echo ====== Reporting >> \"${MapSrcPath}\\${FileName}.log\"\n"_
+		"${LogTime}"_
+
+		"${StageCmd=Report}\n"_
+
+		"cd \"${ValveProject}\"\n"_
+		"cd ..\n"_
+		"\"${StagePath=LaunchL4D}\" ${StageParam=LaunchL4D}\n"
+
+}
