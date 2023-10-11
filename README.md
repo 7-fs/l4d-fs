@@ -39,7 +39,7 @@
 
 **Installation:**
 
-1. First and foremost, make sure you have a legitimate copy of the Left 4 Dead game.
+1. First and foremost, ensure that you have purchased an official copy of the game Left 4 Dead.
 
 2. Download the cache files for Left 4 Dead (which do not contain the game content) [here](https://drive.google.com/file/d/1UzAI1THc6-VUGi5fy57L5SrV1qUkS7rr/view?usp=sharing).
 
