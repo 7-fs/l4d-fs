@@ -20,7 +20,7 @@
 
 5. После распаковки кеша, переместите файлы лаунчера в ту же папку с кешем, заменяя существующие файлы (и закройте Steam, если он запущен).
 
-6. По вашему желанию вы можете установить кеш с русским языком. Для этого просто добавьте суффикс `_russian` к соответствующим файлам или папкам.
+6. По вашему желанию вы можете установить кеш с русским языком. Для этого просто добавьте папки с суфиксом `_russian` к папкам где у вас храняться папки `left4dead` и `left4dead_dlc3`.
 
 7. Если вам нужно сменить язык игры, используйте .reg файлы для Windows, предоставленные в архиве.
 
@@ -52,7 +52,7 @@
 
 5. After extracting the cache, move the launcher files to the same folder as the cache, replacing the existing files (and close Steam if it's running).
 
-6. If you wish, you can install the cache with the Russian language. To do this, simply add the `_russian` suffix to the corresponding files or folders.
+6. If you desire, you can install the cache with the Russian language. To do this, simply add folders with the suffix `_english` to the folders where you have the `left4dead` and `left4dead_dlc3` folders stored.
 
 7. If you need to change the game language, use the .reg files for Windows provided in the archive.
 
