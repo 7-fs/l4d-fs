@@ -26,7 +26,7 @@
 
 **Обновление:**
 
-Мы рекомендуем регулярно проверять наличие обновлений для игры. Для обновления лаунчера используйте версию, предоставленную в нашем [репозитории на GitHub](https://github.com/7-fs/l4d-clear-edition).
+Мы рекомендуем регулярно проверять наличие обновлений для игры. Для обновления лаунчера используйте версию, предоставленную в нашем [репозитории на GitHub](https://github.com/7-fs/l4d-fs).
 
 **Примечание: Этот проект предназначен исключительно для лиц, имеющих официально приобретенную копию игры Left 4 Dead. Мы не нарушаем лицензионное соглашение Valve, и это руководство предостерегает от любых действий, нарушающих закон.**
 
@@ -58,6 +58,6 @@
 
 **Update:**
 
-We recommend regularly checking for game updates. To update the launcher, use the version provided in our [GitHub repository](https://github.com/7-fs/l4d-clear-edition).
+We recommend regularly checking for game updates. To update the launcher, use the version provided in our [GitHub repository](https://github.com/7-fs/l4d-fs).
 
 **Note: This project is intended exclusively for individuals who own an officially purchased copy of Left 4 Dead. We do not violate Valve's licensing agreement, and this guide warns against any actions that would violate the law.**
