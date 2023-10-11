@@ -4,7 +4,7 @@
 **Ссылки:**
 - L4D: [Купить игру](https://store.steampowered.com/app/500/Left_4_Dead/)
 - L4D Оригинальные ресурсы из Steam: [Скачать](https://drive.google.com/file/d/1UzAI1THc6-VUGi5fy57L5SrV1qUkS7rr/view?usp=sharing)
-- L4D Лаунчер: [Скачать](https://github.com/7-fs/l4d-fs/releases/download/untagged-0f41fd238519e91c75b0/l4d_windows.zip)
+- L4D Лаунчер: [Скачать](https://github.com/7-fs/l4d-fs/releases/download/v4.0-beta/l4d_windows_v4_0.zip)
 
 **Установка:**
 
@@ -36,7 +36,7 @@
 **Links:**
 - L4D: [Buy the Game](https://store.steampowered.com/app/500/Left_4_Dead/)
 - L4D Original Resources from Steam: [Download](https://drive.google.com/file/d/1UzAI1THc6-VUGi5fy57L5SrV1qUkS7rr/view?usp=sharing)
-- L4D Launcher: [Download](https://github.com/7-fs/l4d-fs/releases/download/untagged-0f41fd238519e91c75b0/l4d_windows.zip)
+- L4D Launcher: [Download](https://github.com/7-fs/l4d-fs/releases/download/v4.0-beta/l4d_windows_v4_0.zip)
 
 **Installation:**
 
