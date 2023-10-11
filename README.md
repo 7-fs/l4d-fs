@@ -1,4 +1,4 @@
-![Left 4 Dead](https://gamehag.com//img/rewards/background/left-4-dead_max.jpg)
+![Left 4 Dead](https://1.bp.blogspot.com/-yuBXiGAlWgk/YFWWjrKaH4I/AAAAAAAABHE/YirLMLDtGGoGepzYMgETKCkbKLHR3iGaACLcBGAsYHQ/w1200-h630-p-k-no-nu/Left4DeadBanner.jpg)
 # Русский
 
 **Ссылки:**
