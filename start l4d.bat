@@ -1,1 +1,1 @@
-start left4dead.exe -language russian -novid
+start left4dead.exe -language russian -novid +sv_cheats 1 +sb_all_bot_team 1
